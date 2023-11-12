@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.storybook-burger--primary{
+    height: auto;
+    width: auto;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.storybook-burger--secondary{
+    height: auto;
+    width: auto;
+    background: linear-gradient(
+        105deg,
+        rgba(75, 0, 0,0.9) 0%,
+        rgba(100, 0, 0,0.9) 50%,
+        rgba(0,0,0,0.9) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    border-radius: 5px;
+    padding: 5px;
+}
+.storybook-burger--tertiary{
+    height: auto;
+    width: auto;
+    background: linear-gradient(
+        105deg,
+        rgb(146, 0, 0) 0%,
+        rgb(0, 0, 0) 100%
+      );
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    border-radius: 5px;
+    padding: 5px;
+}
+.storybook-burger--off{
+    display: none;
+}
+
+.storybook-burger--closeBtn{
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storybook-burger--img{
+    width: 30px;
+}
+.storybook-burger--btn{
+    margin: 10px 20px 10px 10px; 
+    background: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid grey;
+    width: 130px;
+    text-align: end;
+}
+@media (min-width: 761px) {
+    .storybook-burger--closeBtn{
+        display: none;
+    }
+    .storybook-burger--img{
+        display: none;
+    }
+    .storybook-burger--primary, .storybook-burger--secondary, .storybook-burger--tertiary{
+        display: none;
+    }
+}

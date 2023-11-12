@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background: var(--bg-gradient);
+    
+}
+.image{
+    height: 60px;
+    opacity: 0.3;
+}

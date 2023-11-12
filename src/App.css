@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+:root {
+    --bg-color: #fafafa;
+    --bg-gradient: linear-gradient(
+      105deg,
+      rgb(0, 0, 0) 0%,
+      rgb(146, 0, 0) 100%
+    );
+    --bg-border: linear-gradient(
+      90deg,
+      rgba(124, 166, 252, 1) 0%,
+      rgba(119, 235, 129, 1) 100%
+    );
+    --bg-footer: linear-gradient(
+      105deg,
+      rgb(146, 0, 0) 0%,
+      rgb(0, 0, 0) 100%
+    );
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .app main {
+    padding: 10px;
+    height: 100%;
+    overflow: auto;
+  }
+  

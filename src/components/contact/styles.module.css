@@ -1,0 +1,34 @@
+.main{
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 160px);
+    height: auto;
+} 
+.contactBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    border: 2px solid white;
+    height: 80px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+.contact img{
+    margin: 10px;
+    width: 50px;
+}

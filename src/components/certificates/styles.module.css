@@ -1,0 +1,51 @@
+.main{
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 160px);
+    height: auto;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.school,.platzi,.math {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(0,0,0,0.7);
+}
+.school img{
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin: 10px;
+}
+.platzi img{
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin: 10px;
+}
+.math img{
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+h5,h6,p{
+    color: white;
+    text-decoration: none;
+}

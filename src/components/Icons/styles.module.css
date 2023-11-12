@@ -1,0 +1,13 @@
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.icon img{
+    width: 30px;
+    margin: 2px;
+}
+.icon img:hover{
+    width: 45px;
+}

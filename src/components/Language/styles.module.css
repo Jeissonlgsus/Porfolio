@@ -1,0 +1,11 @@
+.languageBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+}
+.btn:hover{
+    text-decoration: underline;
+}

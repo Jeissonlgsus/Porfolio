@@ -1,0 +1,36 @@
+.boxhobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.encierro{
+    height: 150px;
+    margin-top: 5px;
+
+}
+.encierroYT{
+    height: 200px;
+    margin: -25px;
+}
+@media (min-width: 600px) {
+    .box{
+        flex-direction: row;
+    }
+}
+@media (min-width: 1024px) {
+    .boxhobbies{
+        flex-direction: row;
+    }
+    .box{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,90 @@
+.main{
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 160px);
+    height: auto;
+} 
+.faseuno{
+    border: 2px solid rgb(146,0,0);
+    width: 90%;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fasedos{
+    border: 2px solid rgb(146,0,0);
+    width: 90%;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.faseuno img{
+    height: 140px;
+    width: 140px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.textOne, .textTwo{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.fasedos p{
+    margin: 10px;
+}
+h2{
+    margin: 5px;
+}
+.boxhobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.encierro{
+    height: 150px;
+    margin-top: 5px;
+
+}
+.encierroYT{
+    height: 200px;
+    margin: -25px;
+}
+@media (min-width: 600px) {
+    .faseuno{
+        flex-direction: row;
+    }
+    .box{
+        flex-direction: row;
+    }
+}
+@media (min-width: 1024px) {
+    .boxhobbies{
+        flex-direction: row;
+    }
+    .box{
+        flex-direction: column;
+    }
+}

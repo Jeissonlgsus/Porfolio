@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+.storybook-button {
+  border: 0px;
+  text-align: center;
+  font-size: 12px;
+  margin:5px
+}
+.storybook-button--primary{
+  color: white;
+  background-color: transparent;
+}
+.storybook-button--primary:hover{
+  text-decoration: underline;
+}
+.storybook-button--secondary {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid white;
+}
+.storybook-button--secondary:hover{
+  border: 2px solid white;
+}
+.storybook-button--tertiary{
+  margin: 10px 20px 10px 10px; 
+  background: transparent;
+  border: 0px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  border-bottom: 2px solid grey;
+  width: 130px;
+  text-align: end;
+}
+
