@@ -126,6 +126,9 @@
                 },
                 "skillsEleven":{
                     "Range": "Mid"
+                },
+                "skillsTwelve":{
+                    "Range": "Mid"
                 }
             },
         "Certificates":

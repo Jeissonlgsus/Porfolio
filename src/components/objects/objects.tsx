@@ -1,4 +1,4 @@
-import { ProPic,JaviPic,EnciYtPic,EnciLbPic,LetterPic,LovePic,LunaPic,MokePic,PokePic,RickPic,JavaPic,HtmlPic,CssPic,LatexPic,PythonPic,ReactPic,SchoolPic,PlatziPic,MathPic,FacePic,GitPic,InstaPic,LinkPic,MailPic,NumberPic,TwittPic,WhatsPic,LogoPic,ListPic,TypePic, ReduxPic, RedxPic, StoryPic, MuiPic, ReactDomPic} from "./ImportImages";
+import { ProPic,JaviPic,EnciYtPic,EnciLbPic,LetterPic,LovePic,LunaPic,MokePic,PokePic,RickPic,JavaPic,HtmlPic,CssPic,LatexPic,PythonPic,ReactPic,SchoolPic,PlatziPic,MathPic,FacePic,GitPic,InstaPic,LinkPic,MailPic,NumberPic,TwittPic,WhatsPic,LogoPic,ListPic,TypePic, ReduxPic, RedxPic, StoryPic, MuiPic, ReactDomPic, Pygame} from "./ImportImages";
 
 
 const Objects = 
@@ -246,6 +246,13 @@ const Objects =
                 "name" : "React Router Dom",
                 "progress" : 50,
                 "src": ReactDomPic,
+                "Range": "Mid",
+                "dicc" : "skillsEleven"
+            },
+            "skillsTwelve":{
+                "name" : "Pygame",
+                "progress" : 50,
+                "src": Pygame,
                 "Range": "Mid",
                 "dicc" : "skillsEleven"
             }

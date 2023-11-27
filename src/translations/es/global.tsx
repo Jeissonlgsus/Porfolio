@@ -117,6 +117,9 @@ const Objects_Es =
       },
       "skillsEleven": {
         "Range": "Medio"
+      },
+      "skillsTwelve": {
+        "Range": "Medio"
       }
     },
     "Certificates": {

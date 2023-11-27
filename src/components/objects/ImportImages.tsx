@@ -41,4 +41,5 @@ export {default as RedxPic} from '../../assets/skills/Redux.png'
 export {default as StoryPic} from '../../assets/skills/storybook.png'
 export {default as MuiPic} from '../../assets/skills/Material UI.png'
 export {default as ReactDomPic} from '../../assets/skills/ReactDom.png'
+export {default as Pygame} from '../../assets/skills/Pygame.png'
  
